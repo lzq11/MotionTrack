@@ -28,19 +28,19 @@ Multiple object tracking (MOT) in unmanned surface vehicle (USV) videos has many
 * (2022.06) A [nice re-implementation](https://github.com/PaddlePaddle/PaddleDetection/tree/develop/configs/mot/bytetrack) by Baidu [PaddleDetection](https://github.com/PaddlePaddle/PaddleDetection)! -->
 
 ## Tracking performance
-### Results on JMT challenge test set
+### Results on JMT2022 test1 datase
 | Methods    |  MOTA | IDF1 |  MT | ML | FP | FN | IDs | FM | FPS |
 |------------|-------|------|------|-------|-------|------|------|------|------|
 |SORT          | 34.4 | 29.7 | 21.2 | 33.0 | 7336 | 52610 | 3956 | 5170 | 35.5|
 |ByteTrack     | 34.6 | 30.8 | 22.2 | 30.7 | 9385 | 50324 | 3984 | 5004 | 35.4|
 |MotionTrack   | 46.9 | 49.2 | 35.3 | 25.2 | 6960 | 42983 | 1730 | 3400 | 35.2|
 
-### Visualization results on JMT challenge test1 set
-<img src="assets/0.gif" width="410"/>   <img src="assets/1.gif" width="680"/>
-<img src="assets/2.gif" width="410"/>   <img src="assets/3.gif" width="680"/>
+### Visualization results on JMT2022 test1 dataset
+<img src="assets/0.gif" width="250"/>   <img src="assets/1.gif" width="450"/>
+<img src="assets/2.gif" width="250"/>   <img src="assets/3.gif" width="450"/>
 
 ## Installation
-### 1. Installing on the host machine
+### Installing on the host machine
 Step1. Install MotionTrack.
 ```shell
 git clone https://github.com/lzq11/MotionTrack.git
@@ -105,7 +105,7 @@ Train on JMT2022 train split set, evaluate on JMT2022 test1 split set.
 
 ## Training
 
-The COCO pretrained YOLOv7-W6 and YOLOv7-tiny model can be downloaded from their [model zoo](https://github.com/WongKinYiu/yolov7/releases). After downloading the pretrained models, you can put them under <MotionTrack_HOME>/pretrain.
+The COCO pretrained YOLOv7-W6 and YOLOv7-tiny model can be downloaded from their [model zoo](https://github.com/WongKinYiu/yolov7/releases). After downloading the pretrained models, you can put them under <MotionTrack_HOME>/pretrain. You may need to change the path of the [jmt2022.yaml](data/jmt2022.yaml) to point to your own (ie. train, val, and test).
 
 * **Single GPU training**
 
