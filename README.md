@@ -188,4 +188,4 @@ Please refer to our another project [https://github.com/lzq11/MotionTrackCpp](ht
 A large part of the code is borrowed from the previous outstanding work. Many thanks for their wonderful works.
 * [https://github.com/WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7)
 * [https://github.com/ifzhang/ByteTrack](https://github.com/ifzhang/ByteTrack)
-* [https://github.com/CaptainEven/MCMOT-ByteTrack.git](https://github.com/CaptainEven/MCMOT-ByteTrack.git)
+* [https://github.com/CaptainEven/MCMOT-ByteTrack](https://github.com/CaptainEven/MCMOT-ByteTrack)
