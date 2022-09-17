@@ -1,0 +1,19 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+# download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+
+train: ../../JRB/images/train # 29776
+val: ../../JRB/images/train 
+test: ../../JRB/images/test1 # 13262
+
+# train: ../../autodl-tmp/JRB/images/train # 29776
+# val: ../../autodl-tmp/JRB/images/train  
+# test: ../../autodl-tmp/JRB/images/test1 # 13262
+
+# class names
+nc: 7  # number of classes
+names: ['sailing_boat','fishing_boat','floater','passenger_ship','speedboat','cargo','special_ship']  # class names
+
