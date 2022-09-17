@@ -36,8 +36,8 @@ Multiple object tracking (MOT) in unmanned surface vehicle (USV) videos has many
 |MotionTrack   | 46.9 | 49.2 | 35.3 | 25.2 | 6960 | 42983 | 1730 | 3400 | 35.2|
 
 ### Visualization results on JMT2022 test1 dataset
-<img src="assets/0.gif" width="250"/>   <img src="assets/1.gif" width="450"/>
-<img src="assets/2.gif" width="250"/>   <img src="assets/3.gif" width="450"/>
+<img src="assets/0.gif" width="270"/>   <img src="assets/1.gif" width="450"/>
+<img src="assets/2.gif" width="270"/>   <img src="assets/3.gif" width="450"/>
 
 ## Installation
 ### Installing on the host machine
