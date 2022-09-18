@@ -23,12 +23,12 @@
 Multiple object tracking (MOT) in unmanned surface vehicle (USV) videos has many application scenarios in the military and civilian fields. State-of-the-art MOT methods first extract a set of detections from the video frames, then utilize IoU distance to associate the detections of current frame and tracklets of last frame , and finally adopt linear Kalman filter to estimate the current position of tracklets. However, some problems in USV videos seriously affect the tracking performance, such as low frame rate, wobble of observation platform, nonlinear motion of objects, small objects and ambiguous appearance. In this paper, we fully explore the motion cue in USV videos, and propose a simple but effective tracker, named MotionTrack. Equipping with YOLOv7 as object detector, the data association of MotionTrack is mainly composed of Cascade Matching with Gaussian Distance module and Observation-Centric Kalman Filter module. We validate the effectiveness with extensive experiments on the recent Jari-Maritime-Tracking-2022 dataset, achieving new state-of-the-art 46.9 MOTA, 49.2 IDF1 with 35.2 FPS running speed on a single 3090 GPU. 
 <p align="center"><img src="assets/demo.jpg" width="500"/></p>
 
-## News
+<!-- ## News -->
 <!-- * (2022.07) Our paper is accepted by ECCV 2022!
 * (2022.06) A [nice re-implementation](https://github.com/PaddlePaddle/PaddleDetection/tree/develop/configs/mot/bytetrack) by Baidu [PaddleDetection](https://github.com/PaddlePaddle/PaddleDetection)! -->
 
 ## Tracking performance
-### Results on JMT2022 test1 datase
+### Results on JMT2022 test1 dataset
 | Methods    |  MOTA | IDF1 |  MT | ML | FP | FN | IDs | FM | FPS |
 |------------|-------|------|------|-------|-------|------|------|------|------|
 |SORT          | 34.4 | 29.7 | 21.2 | 33.0 | 7336 | 52610 | 3956 | 5170 | 35.5|
@@ -152,7 +152,7 @@ python3 tools/evalmc.py
 ```
 You can get 44.4 S using the tracking results of pretrained W6-1920 model, or you can just use the results we provide in [w6-1920-motion-140](assets/w6-1920-motion-140).
 
-## Demo
+<!-- ## Demo -->
 <!-- <img src="assets/palace_demo.gif" width="600"/>
 
 ```shell
@@ -175,7 +175,7 @@ python3 tools/export.py --weights 'path/to/tiny-960.pt' --grid --end2end --simpl
 * **TensorRT in Cpp**
 
 Please refer to our another project [https://github.com/lzq11/MotionTrackCpp](https://github.com/lzq11/MotionTrackCpp)
-## Citation
+<!-- ## Citation -->
 <!-- ```
 @article{liang2022motiontrack,
   title={MotionTrack: Rethinking the Motion Cue for Multiple Object Tracking in USV Videos},
